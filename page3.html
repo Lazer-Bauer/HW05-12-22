@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        text-align: center;
+      }
+      li {
+        display: inline-table;
+        padding: 15px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      p {
+        border: 2px solid black;
+        padding-bottom: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="file:///C:/Users/lazer/OneDrive/Desktop/Daniel%20class%20work/HW05-12-22/index.html"
+            >עמוד הבית</a
+          >
+        </li>
+        <li>
+          <a
+            href="file:///C:/Users/lazer/OneDrive/Desktop/Daniel%20class%20work/HW05-12-22/page2.html"
+            >עמוד מספר2</a
+          >
+        </li>
+        <li>
+          <a
+            href="file:///C:/Users/lazer/OneDrive/Desktop/Daniel%20class%20work/HW05-12-22/page3.html"
+            >עמוד מספר 3</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <form action="https://formspree.io/f/xaykrpyn" method="post">
+      <fieldset>
+        <legend>
+          ח. אני מבקש/ת פטור או זיכוי ממס מהסיבות הבאות (סמן/י √ בריבוע המתאים)
+        </legend>
+        <label for="israeili-citizen"> אני תושב/ת ישראל.</label>
+        <input type="checkbox" id="israeil-citizen" name="israeil-citizen" />
+        <br />
+
+        <label for="100%disable"
+          >אני נכה %100 / עיוור/ת לצמיתות. מצורף אישור משרד הביטחון/האוצר/פקיד
+          השומה/תעודת עיוור שהוצאה לאחר 94.1.1. אם לא סומן בפרק ה כי "אין לי
+          הכנסות אחרות לרבות מלגות" העובד יופנה לפקיד השומה לעריכת תיאום מס.
+        </label>
+        <input type="checkbox" id="100%disable" name="100%disable" /> <br />
+
+        <label for="citizen">אני תושב/ת קבוע/ה בישוב מזכה</label>
+        <input type="checkbox" id="citizen" name="citizen" /> <br />
+
+        <label for="oleh">אני עולה חדש/ה</label>
+        <input type="checkbox" id="oleh" name="oleh" /> <br />
+
+        <label for="no-anual-tax">אין הכנסות לשנת המס</label>
+        <input type="checkbox" id="no-anual-tax" name="citezen" />
+
+        <label for="single-parent">אני הורה חד הורי</label>
+        <input type="checkbox" id="single-parent" name="single-parent" /> <br />
+
+        <label for="children-in-my-custody">
+          בגין ילדיי שבחזקתי המפורטים בחלק ג</label
+        >
+        <input
+          type="checkbox"
+          id="children-in-my-custody"
+          name="children-in-my-custody"
+        />
+
+        <p>
+          ימולא רק ע"י הורה במשפחה חד הורית שמקבל את קצבת הילדים בגינם, או ע"י
+          אשה נשואה או ע"י הורה יחיד
+        </p>
+        <label for="num-children"> מספר ילדים שנולדו בשנת המס</label>
+        <input type="checkbox" id="num-children" name="num-children" /> <br />
+
+        <label for="children5+">
+          מספר ילדים שימלאו להם שנה אחת עד 5 שנים בשנת המס</label
+        >
+        <input type="checkbox" id="children5+" name="children5+" /> <br />
+
+        <label for="cildren-between6-12">
+          מספר ילדים שימלאו להם 6 שנים עד 12 שנים בשנת המס</label
+        >
+        <input
+          type="checkbox"
+          id="cildren-between6-12"
+          name="cildren-between6-12"
+        />
+        <br />
+
+        <label for="children-between13-17">
+          מספר ילדים שימלאו להם 13 שנים עד 17 שנים בשנת המס</label
+        >
+        <input
+          type="checkbox"
+          id="children-between13-17"
+          name="children-between13-17"
+        />
+        <br />
+
+        <label for="children18+">מספר ילדים שימלאו להם 18 שנים בשנת המס</label>
+        <input type="checkbox" id="children18+" name="children18+" /> <br />
+
+        <label for="parent"
+          >בגין ילדיי. ימולא ע"י הורה (למעט הורה אשר סימן בפסקה 7 לעיל), אשה לא
+          נשואה שילדיה אינם בחזקתה וכן הורה יחיד</label
+        >
+        <input type="checkbox" id="parent" name="parent" /> <br />
+
+        <label for="children-born-tax-year"> מספר ילדים שנולדו בשנת המס</label>
+        <input
+          type="checkbox"
+          id="children-born-tax-year"
+          name="children-born-tax-year"
+        />
+        <br />
+
+        <label for="children-between1-5-years">
+          מספר ילדים שימלאו להם שנה אחת עד 5 שנים בשנת המס</label
+        >
+        <input
+          type="checkbox"
+          id="children-between1-5-years"
+          name="children-between1-5-years"
+        />
+        <br />
+
+        <label for="num-children-between6-12-years">
+          מספר ילדים שימלאו להם 6 שנים עד 12 שנים בשנת המס</label
+        >
+        <input
+          type="checkbox"
+          id="num-children-between6-12-years"
+          name="num-children-between6-12-years"
+        />
+        <br />
+
+        <label for="single-for-child">אני הורה יחיד לילדי שברשותי</label>
+        <input type="checkbox" id="single-for-child" name="single-for-child" />
+        <br />
+        <label for="feed-my-children-not-in-my-custody"
+          >בגין ילדיי שאינם בחזקתי המפורטים בחלק ג ואני משתתף/ת בכלכלתם.</label
+        >
+        <input
+          type="checkbox"
+          id="feed-my-children-not-in-my-custody"
+          name="feed-my-children-not-in-my-custody"
+        />
+        <br />
+
+        <label for="paren-for-special-need-children"
+          >אני הורה ל ילדים עם מוגבלות שטרם מלאו להם 19 שנים, בגינם אני מקבל/ת
+          גמלת ילד נכה מהמוסד לביטוח לאומי.</label
+        >
+        <input
+          type="checkbox"
+          id="paren-for-special-need-children"
+          name="paren-for-special-need-children"
+        />
+        <br />
+
+        <label for="payeng-x-spouse">בגין מזונות לבן/בת זוגי לשעבר</label>
+        <input type="checkbox" id="payeng-x-spouse" name="payeng-x-spouse" />
+        <br />
+
+        <label for="my-spouse-not-18"
+          >מלאו לי או לבן/בת זוגי 16 שנים וטרם מלאו לי או לבן/בת זוגי 18 שנים
+          בשנת המס.</label
+        >
+        <input type="checkbox" id="my-spouse-not-18" name="my-spouse-not-18" />
+        <br />
+
+        <label for="free-soldier"
+          >אני חייל/ת משוחרר/ת / שרתתי בשירות לאומי. תאריך תחילת השירות</label
+        >
+        <input type="checkbox" id="free-soldier" name="free-soldier" /> <br />
+
+        <label for="finishing-a-degree"
+          >בגין סיום לימודים לתואר אקדמי, סיום התמחות או סיום לימודי
+          מקצוע</label
+        >
+        <input
+          type="checkbox"
+          id="finishing-a-degree"
+          name="finishing-a-degree"
+        />
+        <br />
+      </fieldset>
+      <br /><br /><br />
+      <fieldset>
+        <legend>
+          ט. אני מ בקש/ת תיאום מס מהסיבות הבאות (סמן/י √ בריבוע המתאים)
+        </legend>
+        <label for="no-income-tax-year"
+          >לא היתה לי הכנסה מתחילת שנת המס הנוכחית עד לתחילת עבודתי אצל מעסיק
+          זה.</label
+        >
+        <input
+          type="checkbox"
+          id="no-income-tax-year"
+          name="no-income-tax-year"
+        />
+        <br />
+        <br />
+        <label for="have-additional-income"
+          ><bdi>יש לי הכנסות נוספות ממשכורת כמפורט להלן</bdi></label
+        >
+        <input
+          type="checkbox"
+          id="have-additional-income"
+          name="have-additional-income"
+        />
+        <br /><br />
+        <table>
+          <thead>
+            <tr>
+              <th>המעסיק/משלם המשכורת</th>
+              <td>סוג הכנסה(עבודה/קצבה/מלגה/אחר)</td>
+              <td>הכנסה חודשית</td>
+              <td>המס שנוכה</td>
+            </tr>
+            <tr>
+              <td>ש ם</td>
+
+              <td>כתובת</td>
+              <td>מספר תיק ניכויים</td>
+              <td>(לפי התלושים)</td>
+            </tr>
+          </thead>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>9</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td>9</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>9</td>
+            <td></td>
+          </tr>
+        </table>
+        <label for="assessor">פקיד השומה אישר תיאום לפי אישור מצורף.</label>
+        <input type="checkbox" id="assessor" name="assessor" />
+      </fieldset>
+      <button>submit</button>
+    </form>
+    <h3>י. הצהרה</h3>
+    <p class="paragraph">
+      אני מצהיר/ה כי הפרטים שמסרתי בטופס זה הינם מלאים ונכונים. ידוע לי שהשמטה
+      או מסירת פרטים לא נכונים הינה עבירה על פקודת מס הכנסה. אני מתחייב/ת להודיע
+      למעסיק על כל שינוי שיחול בפרטיי האישיים ובפרטים דלעיל תוך שבוע ימים מתאריך
+      השינוי.
+    </p>
+    <br /><br /><br /><br />
+  </body>
+</html>

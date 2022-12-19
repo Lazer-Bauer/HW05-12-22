@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        text-align: center;
+      }
+      li {
+        display: inline-table;
+        padding: 15px;
+      }
+      h1 {
+        margin-right: 45%;
+      }
+      h3 {
+        margin-right: 30%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://images.app.goo.gl/5SNzhqFchCvBvbtS9" alt="Logo" />
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="file:///C:/Users/lazer/OneDrive/Desktop/Daniel%20class%20work/HW05-12-22/index.html"
+            >עמוד הבית</a
+          >
+        </li>
+        <li>
+          <a
+            href="file:///C:/Users/lazer/OneDrive/Desktop/Daniel%20class%20work/HW05-12-22/page2.html"
+            >עמוד מספר2</a
+          >
+        </li>
+        <li>
+          <a
+            href="file:///C:/Users/lazer/OneDrive/Desktop/Daniel%20class%20work/HW05-12-22/page3.html"
+            >עמוד מספר 3</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <br /><br /><br />
+    <h1>כרטיס עובד</h1>
+    <br /><br />
+    <form action="https://formspree.io/f/xaykrpyn" method="post">
+      <fieldset>
+        <legend>
+          ובקשה להקלה ולתיאום מס על ידי המעסיקה. פרטים על הכנסות אחרות
+        </legend>
+        <label for="מספר-זהות">מספר-זהות</label>
+        <input type="text" id="מספר-זהות" name="מספר-זהות" />
+
+        <label for="שם-משפחה">שם-משפחה</label>
+        <input type="text" id="שם-משפחה" name="שם-משפחה" />
+
+        <label for="שם-פרטי">שם-פרטי</label>
+        <input type="text" id="שם-פרטי" name="שם-פרטי" />
+
+        <label for="תאריך-לידה">תאריך-לידה</label>
+        <input type="date" id="תאריך-לידה" name="תאריך-לידה" />
+
+        <label for="תאריך-עליה">תאריך-עליה</label>
+        <input type="date" id="תאריך-עליה" name="תאריך-עליה" /> <br /><br />
+
+        <label for="מספר-דרכון">מספר-דרכון</label>
+        <input type="text" id="מספר-דרכון" name="מספר-דרכון" />
+
+        <label for="כתובת-פרטית">כתובת-פרטית-מספר-עיר-מיקוד</label>
+        <input type="text" id="כתובת-פרטית" name="כתובת-פרטית" /> <br />
+        <h4>מין</h4>
+        <label for="זכר">זכר</label>
+        <input type="radio" id="זכר" name="זכר" />
+
+        <label for="נקבה">נקבה</label>
+        <input type="radio" id="נקבה" name="זכר" />
+        <h4>מצב-משפחתי</h4>
+        <label for="רווק/ה">רווק/ה</label>
+        <input type="radio" id="רןןק/ה" name="רווק" />
+
+        <label for="אלמן/ה">אלמן/ה</label>
+        <input type="radio" id="אלמן/ה" name="רווק" />
+
+        <label for="נשוא/ה">נשוא/אה</label>
+        <input type="radio" id="נשוא/אה" name="רווק" />
+
+        <label for="פרוד/ה">פרוד/ה</label>
+        <input type="radio" id="פרוד/ה" name="רווק" />
+        <br />
+        <h4>תושב ישראל</h4>
+        <label for="yes">כן</label>
+        <input type="radio" id="yes" name=" כן" />
+
+        <label for="מם">לא</label>
+        <input type="radio" id="מם" name=" כן" />
+        <h4>חבר קיבוץ/מושב שיתופי</h4>
+        <label for="yes">כן</label>
+        <input type="radio" id="yes" name="כן" />
+
+        <label for="no">לא</label>
+        <input type="radio" id="no" name="כן" />
+        <h4>חבר בקופת חולים</h4>
+        <label for="no">לא</label>
+        <input type="radio" id="no" name="no" />
+        <label for="yes">כן</label>
+        <input type="radio" id="yes" name="no" />
+        <input type="text" id="yes" name="no" />
+
+        <label for="email">כתובת-דואר-אלקטרוני</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="phone"> מספר טלאפון</label>
+        <input type="text" id="phone" name="phone" />
+
+        <label for="mobile">מספר-טלאפון-נייד</label>
+        <input type="text" id="mobile" name="מספר- טלאפון-נייד" />
+      </fieldset>
+
+      <h2>ד. פרטים על הכנוסתיי ממעסיק זה</h2>
+      <fieldset>
+        <h4>אני מקבל/ת</h4>
+        <label for="start-work">תאריך-תחילת-העבודה-בשנת-המס</label>
+        <input type="date" id="start-work" name="start-work" />
+
+        <label for="month-salary">משכורת-חודש</label>
+        <input type="radio" id="month-salary" name="budget" />
+
+        <label for="salary-for-additional-work">משכורת-בעד-משרה-נוספת</label>
+        <input type="radio" id="salary-for-additional-work" name="budget" />
+
+        <label for="patly-salary">משכורת-חלקית</label>
+        <input type="radio" id="partly-salary" name="budget" />
+
+        <label for="'work-salary">שכר-עבודה</label>
+        <input type="radio" id="work-salary" name="budget" />
+
+        <label for="button">קצבה</label>
+        <input type="radio" id="budget" name="budget" />
+
+        <label for="scholarship">מלגה</label>
+        <input type="radio" id="scholarship" name="budget" />
+      </fieldset>
+      <h4>
+        ג. פרטים על ילדיי שבשנת המס טרם מלאו להם 19 שנה (עפ”י ספח תעודת זהות) ד.
+        פרטים על הכנסותיי ממעסיק זה סמן/יי√ ליד שם הילד: בטור 1 אם הילד נמצא
+        בחזקתך בטור 2 אם את/ה מקבל/ת בגינו קצבת ילדים מב"ל
+      </h4>
+      <table>
+        <thead>
+          <tr>
+            <th>1</th>
+            <th>2</th>
+
+            <th>שם</th>
+            <th>מספר-זהות</th>
+            <th>תאריך-לידה</th>
+          </tr>
+        </thead>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <br /><br />
+      <caption>
+        ה. פרטים על הכנסות אחרות
+      </caption>
+      <fieldset>
+        <label for="no-income"
+          >אין לי הכנסות אחרות ממשכורת (משכורת חודש, בעד משרה (1) נוספת, משכורת
+          חלקית, שכר עבודה), מקצבה וממלגה</label
+        >
+        <input type="radio" id="no-income" name="budget" /> <br />
+
+        <label for="have-other-income"> יש לי הכנסות אחרות כמפורט להלן:</label>
+        <input type="radio" id="have-other-income" name="budget" />
+        <br />
+
+        <label for="month-salary"> משכורת חודש</label>
+        <input type="radio" id="month-salary" name="budget" /> <br />
+
+        <label for="work-salary">שכר עבודה (עובד יומי)</label>
+        <input type="radio" id="work-salary" name="budget" /> <br />
+
+        <label for="additional-job"><bdi>משכורת בעד משרה נוספת</bdi> </label>
+        <input type="radio" id="additional-job" name="budget" /> <br />
+
+        <label for="budget">קצבה</label>
+        <input type="radio" id="budget" name="budget" /> <br />
+
+        <label for="partly-salary">משכורת חלקית</label>
+        <input type="radio" id="partly-salary" name="budget" /> <br />
+
+        <label for="scholarship">מלגה</label>
+        <input type="radio" id="scholarship" name="budget" />
+        <h5>אם יש לך הכנסה אחרת - נא סמן/י:</h5>
+
+        <label for="points"
+          >אבקש לקבל נקודות זיכוי ומדרגות מס כנגד הכנסתי זו (7) (סעיף ד). איני
+          מקבל/ת אותן בהכנסה אחרת</label
+        >
+        <input type="radio" id="points" name="education-fund" /> <br />
+        <label for="diffrent-points-to-salary"
+          >אני מקבל/ת נקודות זיכוי ומדרגות מס בהכנסה (8) אחרת ועל כן איני זכאי/ת
+          להן כנגד הכנסה זו</label
+        >
+        <input
+          type="radio"
+          id="diffrent-points-to-salary"
+          name="education-fund"
+        />
+        <br />
+
+        <label for="education-fund"
+          >אין מפרישים עבורי לקרן השתלמות בגין הכנסתי האחרת, או שכל הפרשות
+          המעסיק לקרן השתלמות (9) בגין הכנסתי האחרת מצורפות להכנסתי האחרת</label
+        >
+        <input type="radio" id="education-fund" name="education-fund" /><br />
+
+        <label for="lost-ability-to-work"
+          >אין מפרישים עבורי לקצבה/לביטוח אובדן כושר עבודה/פיצויים בגין הכנסתי
+          האחרת, או שכל הפרשות המעסיק לקצבה/לביטוח אובדן כושר עבודה/פיצויים (10)
+          בגין הכנסתי האחרת מצורפות להכנסתי האחרת</label
+        >
+        <input type="radio" id="lost-ability-to-work" name="education-fund" />
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>ו. פרטים על בן/בת הזוג</legend>
+        <label for="id-number">מספר זהות (9 ספרות)</label>
+        <input type="text" id="id-number" name="id-number" />
+
+        <label for="surname">שם משפחה</label>
+        <input type="text" id="surname" name="surname" />
+
+        <label for="date">תאריך לידה</label>
+        <input type="date" id="date" name="date" />
+
+        <label for="aliya">תאריך עליה</label>
+        <input type="date" id="aliya" name="aliya" /> <br /><br />
+
+        <label for="passport">מספר דרכון (למי שאין מספר זהות)</label>
+        <input type="text" id="passport" name="passport" />
+
+        <label for="no-income"> אין לבן/בת הזוג כל הכנסה</label>
+        <input type="radio" id="no-income" name="income" />
+
+        <label for="income">יש לבן/בת הזוג הכנסה מ:</label>
+        <input type="radio" id="income" name="income" />
+
+        <label for="budget-income">עבודה/קצבה/עסק</label>
+        <input type="radio" id="budget-income" name="income" />
+
+        <label for="other-income"> הכנסה אחרת</label>
+        <input type="radio" id="other-income" name="income" />
+      </fieldset>
+      <br /><br />
+      <caption>
+        ז. שינויים במהלך השנה
+      </caption>
+      <table>
+        <thead>
+          <tr>
+            <th>תאריך השינוי</th>
+            <th>פרטי השינוי</th>
+            <th>תאריך ההודעה</th>
+            <th>חתימת העובד/ת</th>
+          </tr>
+        </thead>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <button>submit</button>
+    </form>
+    <br /><br /><br /><br />
+
+    <input type="submit" name="submit" placeholder="submit" />
+    <br /><br /><br /><br /><br />
+  </body>
+</html>
